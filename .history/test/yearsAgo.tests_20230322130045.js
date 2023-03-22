@@ -1,5 +1,5 @@
 describe("Test my yearsAgo function", function () {
-  it("It should return the difference between currentYear minus previousYear", function () {
+  it("It should return the difference between currentYear minus previousyear", function () {
     assert.equal((new Date().getFullYear() - 1989), yearsAgo(1989), "This should be true");
   });
 

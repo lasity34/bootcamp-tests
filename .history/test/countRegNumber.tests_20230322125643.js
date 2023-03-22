@@ -7,7 +7,7 @@ describe("Test my countRegNumber function", function () {
     );
   });
 
-  it("It should return number 1, because there is only 1 regstration number in the string", function () {
+  it("It should return number 1, because there is only 1 regstration number", function () {
     assert.equal(1, countRegNumber("CA 182736"), "This should be true");
   });
 });
