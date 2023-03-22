@@ -12,7 +12,7 @@ describe("Test my transportFee function", function () {
     });
 
      
-    it("It should return a string free because the string night is typed in as an argument", function () {
+    it("It should return a string free because the string night is typed in", function () {
         assert.equal("free",  transportFee('night'));
       });
   });
