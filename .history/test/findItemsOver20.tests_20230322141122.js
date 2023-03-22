@@ -1,8 +1,8 @@
-describe("Test my transportFee function", function () {
-    it("It should return a string R20 because the string morning is typed in as an argument", function () {
+describe("Test my findItemsOver20 function", function () {
+    it("It should return a list with an array of objects from the first array listItems which will be the 2 objects pears and bananas", function () {
       assert.equal(
-        'R20',
-        transportFee('morning'),
+        results,
+        findItemsOver20(itemList),
         "This should be true"
       );
     });

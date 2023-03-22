@@ -12,7 +12,7 @@ describe("Test my totalPhoneBill function", function () {
     });
 
      
-    it("It should return a string that is R4.05, because there is 2 sms(R1.30) and 1 call(R2.75) in the argument", function () {
+    it("It should return a string that is R4.05, because there is 2 sms(R1.30) and 1 call(R2.75)", function () {
         assert.equal("R4.05",  totalPhoneBill('sms, sms, call'));
       });
   });

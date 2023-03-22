@@ -1,4 +1,4 @@
-describe("Test my transportFee function", function () {
+describe("Test my findItemsOver20 function", function () {
     it("It should return a string R20 because the string morning is typed in as an argument", function () {
       assert.equal(
         'R20',
