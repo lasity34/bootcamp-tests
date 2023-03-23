@@ -1,4 +1,3 @@
-
 var findItemsOver20 = function(list)  {
 	
   var itemMap = []
